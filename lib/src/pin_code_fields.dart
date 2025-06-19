@@ -769,7 +769,6 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
   }
 
   @override
-  @override
   Widget build(BuildContext context) {
     Directionality textField = Directionality(
       textDirection: widget.errorTextDirection,
